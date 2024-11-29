@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(283deg, rgba(238,174,202,1) 0%, rgba(203,159,207,1) 17%, rgba(193,40,208,1) 37%, rgba(194,109,211,1) 49%, rgba(104,213,215,1) 80%, rgba(148,187,233,1) 100%);
+    background-repeat: repeat;
+}
+
+
+
+
+    #figuerae{
+        transform: scale(80%);
+    }
+
+.cara{
+    width: 500px; 
+    height: 600px;
+    background: #bd8a65 ;
+    border-radius:  200px 200px 300px 300px / 
+                    300px 300px 400px 400px ;
+    margin: 0 auto;
+    z-index:5;
+    top: 150px;
+    
+}
+
+.cabello{
+    height: 200px;
+    z-index: 80;
+    
+}
+    .melenita{ 
+        height: 180px;
+        border-radius:  300px 20px  / 
+                        200px 20px ;
+        bottom: -60px;
+        transform: rotate(60deg);
+        left: 150px;
+        background: black;
+    }
+
+    .m1{
+        background: #552900;
+        box-shadow: inset 0px 10px 0px 0px #8f5932;
+        transform:rotate(60deg);
+    }
+    .m2{
+        background: #552900;
+        left: -170px;
+        border-radius:  20px 300px  / 
+                        20px 200px ;
+        transform:rotate(120deg);
+        bottom: 110px;
+        box-shadow: inset 0px 10px 0px 0px #8f5932;
+        z-index:1101010101010101010101001010101010101010;
+    }
+
+    .melena{
+        width: 560px;
+        height: 900px;
+        background: #552900;
+        position: relative;
+        bottom: 650px;
+        left: 0px;
+        border-radius: 300% 300% 100px 100px;
+        right: 400px;;
+        z-index: 2;
+        margin: 0 auto;
+        top:-480px;
+    }
+
+    .ona {
+        transform: scaleY(20%);
+        transform: scalex(80%);
+        transform: scale(50%);
+        opacity: 0.3;
+        bottom: 205px;
+        right:86px;
+
+    }
+
+    .on{
+        height: 150px;
+        width: 110px;
+        background: transparent;
+        left: -80px;
+        box-shadow: 8px 0 0 #8f5932;
+        border-radius: 50%;
+        top: 200px;
+    }
+
+    .on1{
+        transform: rotate(180deg);
+        
+        
+    }
+    .on2{
+        transform: rotate(0deg);
+    }
+    .on3{
+        transform: rotate(180deg);
+    }
+    .on4{
+        transform: rotate(0deg);
+    }
+    .on5{
+        transform: rotate(180deg);
+    }
+
+    .na2{
+        bottom: 928px;
+        right:86px;
+    }
+
+    .na5 , .na6 , .na7 , .na8{
+        display: inline-block;
+        top: -3067px;
+        left: 50px;
+        transform: scale(29%);
+    }
+
+    .na9 , .na10 , .na11{
+        display: inline-block;
+        top: -3834px;
+        left: 50px;
+        transform: scale(29%);
+    }
+
+    .na12{
+        top: -4733px;
+        right: -380px;
+    }
+    .na13{
+        top: -5461px;
+        right: -380px;
+    }
+
+    .na3{
+        bottom: 1622px;
+        right: 9px;
+        transform: rotate(180deg);
+        transform: scale(36%);
+    }
+
+    .na4{
+        bottom: 2348px;
+        right: 53px;
+        transform: rotate(180deg);
+        transform: scale(40%);
+    }
+
+    
+
+
+.frente{
+    height: 60px;
+    background: ;
+    z-index: 70;
+    background: transparent;
+}
+
+.mirada{
+    height: 100px;
+    background: ;
+    text-align: center;
+    z-index: 60;
+
+
+}
+
+    .mirada .ojo{
+        height: 50px;
+        width: 120px;
+        background: white;
+        display: inline-block;
+        margin: 15px 50px;
+        box-shadow: 0 -3px 0 0;
+        z-index: 70;
+
+    }
+
+    .mirada .ojo .iris{
+        height: 40px;
+        width: 50px;
+        background: rgb(73, 34, 0);
+        border-radius: 50%;
+        margin: 5px;
+        margin: 0 auto;
+        top: 9px;
+        z-index: 70;
+    }
+
+    .mirada .o1{
+        background: white;
+        border-radius: 20px 80px 0px 60px;
+        transform: rotate(2deg);
+        z-index: 70;
+        
+    }
+
+    .mirada .o2{
+        background: white;
+        border-radius: 80px 20px 60px 00px;
+        transform: rotate(-2deg);
+        z-index: 70;
+    }
+
+    .mirada .ojo .pupila{
+        width: 20px;
+        height: 20px;
+        background: white;
+        border-radius:  70%;
+        z-index: 70;
+    }
+    
+    .mirada .pupilas{
+        width: 15px;
+        height: 15px;
+        background: rgb(0, 0, 0);
+        float: inline-start;
+        left: 17px;;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 70;
+    }
+
+    .o2{
+       z-index: 70; 
+    }
+
+    
+
+
+
+.orejas1{
+
+    width: 40px;
+    height: 100px;
+    background: #bd8a65f6;
+    bottom: 70px;
+    left: -30px;
+    border-radius: 70px 0px 0px 120px;
+    z-index: 5;
+    transform: rotate(-10deg);
+}
+
+.orejas2{
+
+    width: 40px;
+    height: 100px;
+    background: #bd8a65f6;
+    top: -170px;
+    left: 490px;
+    border-radius: 0px 70px 120px 0px;
+    z-index: 5;
+    transform: rotate(10deg);
+}
+
+
+.naris{
+    height: 100px;
+    bottom: 200px;
+    z-index: 75;
+
+
+}
+
+    .naris .punta{
+        height: 0px;
+        width: 0px;
+        background: transparent;
+        margin: 0 auto;
+        background-color: transparent;
+        border: solid 30px transparent;
+        border-top: solid 30px #a77958 
+        border 50%;
+        border-right: solid 30px transparent;
+        border-bottom: solid 30px transparent;
+        border-left: solid 30px transparent;
+        border-radius: 100px 100px 100px 100px;
+        transform: rotate(180deg);
+        z-index: 20;
+    }
+    .naris .cor{
+        width: 50px;
+        height: 50px;
+        background: #a77958;
+        background: linear-gradient(#bd8a65 40%, #b67d54);
+        margin: 0 auto;
+        bottom: 45px;
+        background: ;
+        z-index: 20;
+        border-radius: 0 0 50% 50%;
+    }
+    .hueco{
+        width: 8px;
+        height: 8px;
+        background: #b87d52;
+        border-radius: 0 100%;
+        position: relative;
+    }
+
+    .h1{
+        transform: rotate(150deg);
+        top: 32px;
+        left: 10px;
+    }
+    .h2{
+        transform: rotate(120deg);
+        left: 20px;
+        top: 24px;
+        left: 33px;
+    }
+
+.boca{
+    height: 100px;
+
+    z-index: 70;
+    bottom: 200px;
+}
+
+    
+
+    .b5{
+        width: 130px;
+        height: 15px;
+        background: transparent;
+        transform: rotate(0deg);
+        border-radius: 0% 0% 100% 100% / 0% 0% 200% 200%;
+        box-shadow: 0px -2px 1px  inset rgb(0, 0, 0) ;
+        top: 40px;
+        right: 5px;
+        margin: 0 auto;
+    }
+
+
+
+    .lengua {
+        height: 50px;
+        width:50px;
+        background: rgb(242, 93, 93);
+        margin: 0 auto;
+        top: 40px;
+        border-radius: 0 0 50% 50%;  
+        opacity: 0.0 ;
+    
+    }
+
+            .raya {
+                height: 40px;
+                width: 2px;
+                background: maroon;
+                left: 25px;
+                opacity: 20%;
+
+            }
+
+            .guino{
+                width: 143px;
+                height: 111px;
+                background: #bd8a65;
+                border-radius: 50%;
+                left: 55px;
+                bottom: 321px;
+            }
+
+            .parpado{
+                width: 104px;
+                height: 47px;
+                background: transparent;
+                border-radius: 50%;
+                left: 82px;
+                bottom: 385px;
+                box-shadow: inset 0 -4px 0 black;
+                
+
+            }
+            .img1{
+                height: 300px;
+                width: 300px;
+                background-image: url(../img/estrella.webp);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                left:155px;
+                bottom: 410px;
+                
+
+            }
+            .img2{
+                height: 300px;
+                width: 300px;
+                background-image: url(../img/estrella.webp);
+                background-size: 200px;
+                background-repeat: no-repeat;
+                right:450px;
+                bottom: 1030px;
+                
+
+            }
+            .img3{
+                height: 300px;
+                width: 300px;
+                background-image: url(../img/estrellaa.webp);
+                background-size: 200px;
+                background-repeat: no-repeat;
+                right:480px;
+                bottom: 950px;
+
+            }
+            .img4{
+                height: 300px;
+                width: 300px;
+                background-image: url(../img/estrella.webp);
+                background-size: 200px;
+                background-repeat: no-repeat;
+                left:330px;
+                bottom: 950px;
+            }
+            .img5{
+                height: 400px;
+                width: 400px;
+                background-image: url(../img/estrellaa.webp);
+                background-size: 400px;
+                background-repeat: no-repeat;
+                left:235px;
+                bottom: 2000px;
+            }
+
+    .lengua:hover{
+        opacity: 1;
+    }
+
+    .estrella:hover{
+        animation: estrella 2s infinite ;
+    }
+
+
+
+
+
+.rubor{
+    width: 140px;
+    height: 120px;
+    border-radius: 50%;
+    background: pink;
+    background: radial-gradient(coral ,#bd8a65 70%);
+    opacity: 0.3;
+
+}
+
+.r1{
+    left: 110px;
+    bottom: 50px;
+    
+}
+
+.r2{
+    right: 190px;
+    bottom: 150px;
+}
+
+.r3{
+    margin: 0 auto;
+    bottom: 250px;
+    height: 50px;
+    width: 100px;
+    opacity: 0.2;
+}
+
+.r4{
+    height: 100px;
+    width: 30px;
+    margin: 0 auto;
+    bottom: 480px;
+    z-index: 50;
+    opacity: 0.1;
+}
+
+.pendiente{
+    height: 20px;
+    width:20px;
+    background: black;
+    border-radius: 50%;
+    z-index: 100;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.p1{
+    left: 260px;
+    bottom: 260px;
+}
+
+.p2{
+    right: 230px;
+    bottom: 280px;
+}
+
+.ceja{
+    height: 80px;
+    width: 170px;
+    clip-path: polygon(33% 3%, 76% 16%, 35% 13%, 
+           0 23%, 0 11%);
+    background: #723700c7;
+    transform: rotate(1deg);
+    bottom: 430px;
+    left: 75px;
+
+}
+
+.c2{
+    clip-path: polygon(45% 2%, 100% 9%, 100% 19%, 48% 12%, 0 30%);
+    width: 135px;
+    height: 90px;
+    left: -168px ;
+    bottom: 510px;
+}
+
+.cuello{
+    height: 200px;
+    bottom: 900px;
+}
+
+.cuello .cuel{
+    height: 120px;
+    width: 200px;
+    background: #bd8a65;
+    margin: 0 auto;
+    top: 559px;
+    z-index: 1;
+    opacity: 0.0;
+}
+
+@keyframes estrella {
+    0%{
+        transform: rotate(0deg)
+    }
+
+    100%{
+        transform: rotate(10deg)
+    }
+}
+
+
+
+
+
+
+
